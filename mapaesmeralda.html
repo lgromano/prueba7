@@ -99,7 +99,7 @@
 
     // muestra mapa o imagen georeferenciada en base a si hay conexion a internet o no
      
-       networkState=navigator.network.connection.type;
+     /*  networkState=navigator.network.connection.type;
 
        if (networkState==connection.NONE){
 
@@ -109,7 +109,9 @@
            L.imageOverlay(image, imageBounds).addTo(map);
 
 
-       }else{
+       }else{   
+
+        */
 
 
           
@@ -443,7 +445,10 @@
        fillOpacity: 1
        }).addTo(map);
 
- } //fin del else
+
+
+
+// } //fin del else, este esta relacionado con el if del network connection
 
 
   }); // document ready
