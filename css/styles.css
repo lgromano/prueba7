@@ -37,6 +37,18 @@ background-color:#213d26;
 
 .btn{
 	background-color:#213d26;
+	font-size: 16px;
+	
+}
+
+.mapa{
+	 position: relative;
+	 top:0.5em;
+     left: 6em;
+}
+
+.tramos{
+	float:right;
 }
 
 .subtitle{
